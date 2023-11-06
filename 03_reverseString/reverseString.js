@@ -1,6 +1,6 @@
 const reverseString = function(word) {
     let output = ""
-    for (let i = word.length; i <= word.length; i-- ) {
+    for (let i = word.length - 1; i <= 0; i-- ) {
     let lastCharacter = word.slice(-1)
     output += lastCharacter
     }
